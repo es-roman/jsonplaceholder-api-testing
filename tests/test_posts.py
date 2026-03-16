@@ -20,10 +20,6 @@ def test_get_single_post_by_id():
     data = response.json()
     assert data["id"] == 1 # Тест проверяет, что полученный id совпадает с запрошенным (1)
     assert "title" in data and "body" in data # Тест проверяет корректную структуру поста.
-    Ожидается:
-    - статус код 200
-    - в ответе поле id совпадает с запрошенным (1)
-    - присутствуют поля title и body (пост имеет корректную структуру)
 
 def test_create_post_201():
     payload = {"title": "Новый пост", "body": "Тестовое тело поста", "userId": 1}
