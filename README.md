@@ -1,7 +1,7 @@
 # jsonplaceholder-api-testing
 API-тестирование JSONPlaceholder
 
-Pet-проект для позиции QA-тестировщика
+Pet-проект
 
 # Что сделано:
 - 18 автотестов на Python + pytest + requests
